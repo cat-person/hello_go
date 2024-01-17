@@ -3,6 +3,10 @@ package main
 import "fmt"
 
 func main() {
-	const myName = "Aleksei"
-    fmt.Printf("Hello world, my name is %v!\n", myName)
+    fmt.Println("Hello world!")
+	printName("Aleksei")
+}
+
+func printName(name string) {
+	fmt.Printf("Name is %s\n", name)
 }
